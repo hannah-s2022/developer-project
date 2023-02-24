@@ -75,37 +75,38 @@ flex-direction: column;
 flex-flow: row wrap;
 }
 
-/* Style the navigation menu */
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #405570d2;
   position: relative;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
 }
 
-/* Style navigation menu links */
 .topnav a {
+  float: left;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
 }
 
-/* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+  float: right;
 }
 
-/* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -271,7 +272,7 @@ font-weight: 800;
 
 .about-text {
 text-align: center;
-width: 50%;
+width: 80%;
 border: 1px solid #405570d2;
 padding: 11px;
 background-color: #405570d2;
@@ -420,6 +421,7 @@ width: 70%;
 
   .hero-text {
     width: 15rem;
+    text-align: center;
   }
 
   .hero-text span {
@@ -436,7 +438,7 @@ width: 70%;
   }
 
   .about-text {
-    width: 16.875rem;
+    width: 17rem;
   } 
 
   /**** Skills section ****/
@@ -462,14 +464,15 @@ width: 70%;
 
 .project-piece {
   width: 85%;
+  padding: 0.5em;
 }
 
 .project-piece figure img {
-    width: 95%;
+    width: 100%;
   }
 
 .project-description {
-    width: 50%;
+    width: 100%;
   }
 }
 
