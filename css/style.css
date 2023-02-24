@@ -409,12 +409,7 @@ width: 70%;
 
 @media only screen and (max-width: 640px) {
   /* Style adjustments for viewports that meet the condition */
-
-
-
-
   /**** Hero Section ****/
-
   #hero .half-content{
     flex-direction: column;
   }
@@ -438,7 +433,7 @@ width: 70%;
   }
 
   .about-text {
-    width: 17rem;
+    width: 20rem;
   } 
 
   /**** Skills section ****/
