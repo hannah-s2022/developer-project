@@ -79,9 +79,9 @@ flex-flow: row wrap;
 .mobile-container {
   max-width: 480px;
   margin: auto;
-  background-color: #555;
+  background-color: rgb(202, 206, 202);
   height: 500px;
-  color: white;
+  color: #405570d2;
   border-radius: 10px;
 }
 
@@ -97,7 +97,7 @@ flex-flow: row wrap;
 
 .topnav a {
   float: left;
-  color: white;
+  color: rgb(202, 206, 202);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -108,8 +108,8 @@ flex-flow: row wrap;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(202, 206, 202);
+  color: rgba(57, 71, 57, 0.863);
 }
 
 
@@ -136,7 +136,7 @@ width: 100%;
 }
 
 footer a {
-  color: rgba(57, 71, 57, 0.863);;
+  color: rgba(57, 71, 57, 0.863);
 }
 
 footer a:hover {
