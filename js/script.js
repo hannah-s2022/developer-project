@@ -17,20 +17,3 @@ function topFunction() {
     document.documentElement.scrollTop = 0; //For Chrome, Firefox, IE and Opera
 }
 
-// Nav hamburger selections
-
-const burger = document.querySelector("#burger-menu");
-const ul = document.querySelector("nav ul");
-const nav = document.querySelector("nav");
-
-burger.addEventListener("click", () => {
-    ul.classList.toggle("show");
-});
-
-const navLink = document.querySelectorAll(".nav-item");
-
-navItem.forEach((link) =>
-  link.addEventListener("click", () => {
-    ul.classList.remove("show");
-  })
-);

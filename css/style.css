@@ -8,6 +8,13 @@ body {
   text-align: center;
  }
 
+ h2 {
+  font-family: 'Lexend Tera', sans-serif;    
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+ }
+
 ul {
   list-style: none;
 }
@@ -40,6 +47,7 @@ p {
   padding: 20px 25px 20px 25px;
   border-radius: 50%;
   font-size: 1em;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 #scroll-button:hover {
@@ -67,17 +75,6 @@ flex-direction: column;
 flex-flow: row wrap;
 }
 
-nav {
-position: sticky;
-top: 0;
-left: 0;
-z-index: 1;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 1.5rem 3.5rem;
-}
-
 nav a {
 color: #405570d2;
 }
@@ -88,20 +85,13 @@ border-bottom: rgba(57, 71, 57, 0.863);
 
 nav ul {
 display: flex;
+justify-content: center;
+align-items: center;
 gap: 1.9rem;
 }
 
 nav ul li {
 font-weight: 600;
-}
-
-.burger-menu {
-color: #405570d2;
-font-size: 2.2rem;
-border: 0;
-background-color: rgba(255, 255, 255, 0.493);
-cursor: pointer;
-display: none;
 }
 
 footer {
@@ -122,8 +112,12 @@ font-family: 'Lexend Tera', sans-serif;
 font-size: 1.675rem;
 padding: 18px;
 text-transform: uppercase;
-color: #405570ec;
+color: #1d2632;
 width: 100%;
+}
+
+footer a {
+  color: rgba(57, 71, 57, 0.863);;
 }
 
 footer .content-wrapper {
@@ -154,14 +148,15 @@ font-weight: 500;
 footer .creator-cred {
 margin: 20px 0;
 color: #1d2632;
-font-weight: 800;
+font-weight: 700;
 }
 
 footer .creator-cred span {
 font-style: italic;
 text-transform: uppercase;
 letter-spacing: 3px;
-color: #ffffff;
+font-weight: 800;
+color: rgb(57, 71, 57);
 }
 
 /*** Hero section ***/
@@ -241,12 +236,8 @@ background-color: rgb(202, 206, 202);
 }
 
 #about h2 {
-font-family: 'Lexend Tera', sans-serif;    
-font-size: 1.875rem;
 padding: 19px;
-text-transform: uppercase;
 color: #405570d2;
-text-decoration: underline;
 }
 
 #about .content-wrapper {
@@ -290,17 +281,13 @@ width: 300px;
 /*** Skills and tools ***/
 
 #skills {
-background-color: #405570d2;
+background-color: #4b6380c0;
 width: 100%;
 }
 
 #skills h2 {
-font-family: 'Lexend Tera', sans-serif;    
-font-size: 1.875rem;
 padding: 25px;
-text-transform: uppercase;
 color: rgb(202, 206, 202);
-text-decoration: underline;
 }
 
 #skills h3 {
@@ -316,17 +303,10 @@ justify-content: space-around;
 flex-flow: row wrap;
 }
 
-#skills ul li {
-padding: 1.25rem;
-}
 
 #skills i {
-color: #405570d2;
-font-size: 4em;
-border: 1px solid rgb(202, 206, 202);
-background-color: rgb(202, 206, 202);
-border-radius: 15%;
-padding: 2rem;
+color: rgb(202, 206, 202);
+font-size: 6em;
 }
 
 #skills i:hover {
@@ -355,12 +335,8 @@ font-size: 1.1rem;
 }
 
 #projects h2 {
-font-family: 'Lexend Tera', sans-serif;    
-font-size: 1.875rem;
-padding: 18px;
-text-transform: uppercase;
 color: #405570d2;
-text-decoration: underline;
+padding: 18px;
 }
 
 #projects h3 {
@@ -417,32 +393,14 @@ width: 70%;
   /* Style adjustments for viewports that meet the condition */
 
   nav {
-    padding: 1.5rem 1rem;
-  }
-
-  nav ul {
-    position: fixed;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 80%;
-    text-align: center;
-    transform: translateX(120%);
-    transition: transform 0.5s ease-in;
+    padding: 1rem 0.5rem;
+    width: 100%;
   }
 
    nav ul li {
     margin: 8px;
   }
 
-  .burger-menu {
-    display: block;
-  }
-
-  nav ul.show {
-    transform: translateX(0);
-  }
 
   /**** Hero Section ****/
 
@@ -468,12 +426,18 @@ width: 70%;
   } 
 
   /**** Skills section ****/
+  .language-wrapper ul {
+    flex-wrap: wrap;  
+  }
+
   #skills i {
-    font-size: 6em;
+    font-size: 3em;
+    flex-direction: column;
+    flex-wrap: wrap;
   } 
 
 #skills ul li {
-    padding: 1em 3em 0 3em;
+    padding: 0.5em;
   }
 
   /*** Projects Section ***/
@@ -496,10 +460,22 @@ width: 70%;
 }
 
 /*** Footer ***/
+footer h2 {
+  font-size: 1.3rem;
+  padding: 5px;
+  text-decoration: none;
+}
+
+footer .content-wrapper {
+  width: 70%;
+  margin: 20px 0;
+}
+
 footer .creator-cred {
   margin: 20px 0;
   font-weight: 800;
   font-size: 1rem;
+  width: 100%;
 }
 
 footer .creator-cred span {
