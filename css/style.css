@@ -75,24 +75,7 @@ flex-direction: column;
 flex-flow: row wrap;
 }
 
-nav a {
-color: #405570d2;
-}
-nav a:hover {
-color: rgb(202, 206, 202);
-border-bottom: rgba(57, 71, 57, 0.863);
-}
 
-nav ul {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 1.9rem;
-}
-
-nav ul li {
-font-weight: 600;
-}
 
 footer {
 display: flex;
@@ -118,6 +101,10 @@ width: 100%;
 
 footer a {
   color: rgba(57, 71, 57, 0.863);;
+}
+
+footer a:hover {
+  color: rgb(255, 255, 255);
 }
 
 footer .content-wrapper {
@@ -268,14 +255,11 @@ line-height: 20px;
 
 
 #about-photo {
-border-radius: 15px;
+border-radius: 5px;
 }
 
 #about img {
-border-radius: 50% !important;
-object-fit: cover;
-overflow: hidden;
-width: 300px;
+width: 350px;
 }
 
 /*** Skills and tools ***/
@@ -322,6 +306,10 @@ color: rgb(202, 206, 202);
 #projects {
 background-color: rgb(202, 206, 202);
 width: 100%;
+}
+
+#projects a:hover {
+  color: rgb(0, 0, 0);
 }
 
 #projects p {
@@ -392,14 +380,7 @@ width: 70%;
 @media only screen and (max-width: 640px) {
   /* Style adjustments for viewports that meet the condition */
 
-  nav {
-    padding: 1rem 0.5rem;
-    width: 100%;
-  }
 
-   nav ul li {
-    margin: 8px;
-  }
 
 
   /**** Hero Section ****/
@@ -437,7 +418,7 @@ width: 70%;
   } 
 
 #skills ul li {
-    padding: 0.5em;
+    padding: 0.8em;
   }
 
   /*** Projects Section ***/
