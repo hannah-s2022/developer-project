@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: rgba(57, 71, 57, 0.863);
+  color: rgb(214, 140, 69);
 }
 
 p {
@@ -42,7 +42,7 @@ p {
   right: 2.75%;
   z-index: 9999;
   background-color: rgba(247, 243, 244, 0.65);
-  color: #405570d2;
+  color: rgba(58, 92, 63, 0.897);
   cursor: pointer;
   padding: 20px 25px 20px 25px;
   border-radius: 50%;
@@ -51,8 +51,8 @@ p {
 }
 
 #scroll-button:hover {
-  background-color: #405570d2;
-  color: rgb(255, 255, 255);
+  background-color: rgba(58, 92, 63, 0.897);
+  color: rgb(214, 140, 69);
 }
 
 
@@ -79,15 +79,15 @@ flex-flow: row wrap;
 .mobile-container {
   max-width: 480px;
   margin: auto;
-  background-color: rgb(202, 206, 202);
+  background-color: rgb(44, 66, 81);
   height: 500px;
-  color: #405570d2;
+  color: rgba(58, 92, 63, 0.897);
   border-radius: 10px;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #405570d2;
+  background-color: rgba(58, 92, 63, 0.897);
   position: relative;
 }
 
@@ -97,7 +97,7 @@ flex-flow: row wrap;
 
 .topnav a {
   float: left;
-  color: rgb(202, 206, 202);
+  color: rgb(176, 158, 153);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -108,8 +108,8 @@ flex-flow: row wrap;
 }
 
 .topnav a:hover {
-  background-color: rgb(202, 206, 202);
-  color: rgba(57, 71, 57, 0.863);
+  background-color: rgb(44, 66, 81);
+  color: rgb(214, 140, 69);
 }
 
 
@@ -140,7 +140,7 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(214, 140, 69);
 }
 
 footer .content-wrapper {
@@ -188,12 +188,6 @@ color: rgb(57, 71, 57);
 width: 100%;
 }
 
-.hero-text span {
-font-size: 1.875rem;
-font-weight: 800;
-color: rgb(202, 206, 202);
-}
-
 #hero .content-wrapper {
 width: 100%;
 }
@@ -208,19 +202,19 @@ width: 80%;
 .hero-text span {
 font-size: 1.875rem;
 font-weight: 800;
-color: rgb(202, 206, 202);
+color: rgb(44, 66, 81);
 letter-spacing: 5px;
 }
 
 .hero-text {
 text-align: justify;
 width: 28rem;
-border: 1px solid #405570d2;
+border: 1px solid rgba(58, 92, 63, 0.897);
 padding: 1.5rem;
-background-color: #405570d2;
+background-color: rgba(58, 92, 63, 0.897);
 border-radius: 15px;
-font-weight: 600;
-color: rgb(202, 206, 202);
+font-weight: 700;
+color: rgb(176, 158, 153);
 line-height: 30px;
 }
 
@@ -247,12 +241,12 @@ flex-flow: row wrap;
 
 #about {
 width: 100%;
-background-color: rgb(202, 206, 202);
+background-color: rgb(176, 158, 153);
 }
 
 #about h2 {
 padding: 19px;
-color: #405570d2;
+color: rgba(58, 92, 63, 0.897);
 }
 
 #about .content-wrapper {
@@ -266,19 +260,21 @@ align-items: center;
 }
 
 .about-text span {
-font-size: 1.3em;
+font-size: 1.5em;
 font-weight: 800;
+color: rgb(44, 66, 81);
 }
 
 .about-text {
 text-align: center;
 width: 80%;
-border: 1px solid #405570d2;
+border: 1px solid rgba(58, 92, 63, 0.897);
 padding: 11px;
-background-color: #405570d2;
+background-color: rgba(58, 92, 63, 0.897);
 border-radius: 5px;
-color: rgb(202, 206, 202);
+color: rgb(176, 158, 153);
 line-height: 20px;
+font-weight: 700;
 }
 
 
@@ -293,19 +289,19 @@ width: 350px;
 /*** Skills and tools ***/
 
 #skills {
-background-color: #4b6380c0;
+background-color: rgba(58, 92, 63, 0.897);
 width: 100%;
 }
 
 #skills h2 {
 padding: 25px;
-color: rgb(202, 206, 202);
+color: rgb(176, 158, 153);
 }
 
 #skills h3 {
 font-family: 'Lexend Tera', sans-serif;    
 font-size: 1.675rem;
-color: rgb(202, 206, 202);
+color: rgb(44, 66, 81);
 font-style: italic;
 }
 
@@ -317,55 +313,56 @@ flex-flow: row wrap;
 
 
 #skills i {
-color: rgb(202, 206, 202);
+color: rgb(176, 158, 153);
 font-size: 6em;
 }
 
 #skills i:hover {
-color: rgba(57, 71, 57, 0.863);
+color: rgb(214, 140, 69);
 }
 
 #skills p {
 font-size: 1.2rem;
-color: rgb(202, 206, 202);
+color: rgb(176, 158, 153);
+font-weight: 600;
 }
 
 
 
 /*** Projects ***/
 #projects {
-background-color: rgb(202, 206, 202);
+background-color: rgba(176, 158, 153);
 width: 100%;
 }
 
 #projects a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(214, 140, 69);
 }
 
 #projects p {
-color: #405570d2;
+color: rgba(58, 92, 63, 0.897);
 font-weight: 600;
 }
 
 #projects p span {
-color: #405570d2;
+color: rgba(58, 92, 63, 0.897);
 font-size: 1.1rem;
 }
 
 #projects h2 {
-color: #405570d2;
+color: rgba(58, 92, 63, 0.897);
 padding: 18px;
 }
 
 #projects h3 {
 font-family: 'Lexend Tera', sans-serif;
 font-size: 1.675em;  
-color: #405570f3;
+color: rgb(44, 66, 81);
 margin-bottom: -2px;
 }
 
 #projects a {
-color: #405570f3;
+color: rgb(44, 66, 81);
 }
 
 .project-wrapper {
@@ -382,7 +379,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 padding: 25px;
-background-color:#f3f3f3d2; 
+background-color:rgb(212, 230, 181);
 border-radius: 11px;
 box-shadow: 0 3px 10px rgb(255, 255, 255); 
 padding: 20px;
