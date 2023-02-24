@@ -207,7 +207,7 @@ footer .creator-cred span {
 
 .hero-text {
   text-align: left;
-  width: 25rem;
+  width: 28rem;
   border: 1px solid #405570d2;
   padding: 0.625rem;
   background-color: #405570d2;
@@ -456,6 +456,9 @@ main {
       width: 18rem;
     }
 
+    .hero-text span {
+      font-size: 1.5rem;
+    }
     /**** About Section ****/
 
     #about .half-content{
