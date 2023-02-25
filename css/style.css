@@ -409,7 +409,7 @@ width: 100%;
 width: 70%;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1024px) {
   /* Style adjustments for viewports that meet the condition */
   /**** Hero Section ****/
   #hero .half-content{
