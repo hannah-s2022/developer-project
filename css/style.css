@@ -97,7 +97,7 @@ flex-flow: row wrap;
 
 .topnav a {
   float: left;
-  color: #ca895f;
+  color: #db9d47;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -138,6 +138,7 @@ width: 100%;
 
 footer a {
   color: #2c4251;
+  text-decoration: none;
 }
 
 footer a:hover {
@@ -176,12 +177,12 @@ color: #000000;
 font-weight: 700;
 }
 
-footer .creator-cred span {
+.creator-cred span a {
 text-transform: uppercase;
 letter-spacing: 3px;
 font-weight: 800;
 color: #000000;
-font-size: 1.1rem;
+font-size: 0.875rem;
 }
 
 /*** Hero section ***/
@@ -204,7 +205,7 @@ width: 80%;
 .hero-text span {
 font-size: 1.875rem;
 font-weight: 800;
-color: #ca895f;
+color: #db9d47;
 letter-spacing: 5px;
 }
 
@@ -248,7 +249,7 @@ background-color: #e5f4e3;
 
 #about h2 {
 padding: 19px;
-color: #ca895f;
+color: #db9d47;
 }
 
 #about .content-wrapper {
@@ -264,7 +265,7 @@ align-items: center;
 .about-text span {
 font-size: 1.5em;
 font-weight: 800;
-color: #ca895f;
+color: #db9d47;
 }
 
 .about-text {
@@ -316,10 +317,10 @@ flex-flow: row wrap;
 
 #skills i {
 color: #e5f4e3;
-font-size: 6em;
-background-color: #ca895f;
+font-size: 4em;
+background-color: #db9d47da;
 border-radius: 15%;
-padding: 1.1rem;
+padding: 0.875rem;
 }
 
 #skills i:hover {
@@ -350,24 +351,24 @@ font-weight: 200;
 }
 
 #projects p span {
-color: #ca895f;
+color: #db9d47;
 font-size: 1.1rem;
 }
 
 #projects h2 {
-color: #ca895f;
+color: #db9d47;
 padding: 18px;
 }
 
 #projects h3 {
 font-family: 'Lexend Tera', sans-serif;
 font-size: 1.675em;  
-color: #ca895f;
+color: #db9d47;
 margin-bottom: -2px;
 }
 
 #projects a {
-color: #ca895f;
+color: #db9d47;
 }
 
 .project-wrapper {
@@ -386,7 +387,7 @@ flex-direction: column;
 padding: 25px;
 background-color:rgba(58, 92, 63, 0.897);
 border-radius: 11px;
-box-shadow: 0 3px 10px #ca895f; 
+box-shadow: 0 3px 10px #db9d47; 
 padding: 20px;
 margin: 10px;
 width: 40%;
