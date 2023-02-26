@@ -324,7 +324,7 @@ color: #e5f4e3;
 font-size: 4em;
 background-color: #db9d47da;
 border-radius: 15%;
-padding: 0.875rem;
+padding: 1rem;
 }
 
 #skills i:hover {
@@ -369,7 +369,7 @@ font-family: 'Lexend Tera', sans-serif;
 font-size: 1.675em;  
 color: #db9d47;
 margin-bottom: -2px;
-width: 80%;
+width: 95%;
 }
 
 #projects a {
@@ -393,12 +393,12 @@ background-color:rgba(58, 92, 63, 0.897);
 border-radius: 11px;
 box-shadow: 0 3px 10px #db9d47; 
 margin: 10px;
-width: 80%;
+width: 92%;
 }
 
 .project-piece figure {
 filter: drop-shadow(1px 2px 2px gray);
-width: 70%;
+width: 78%;
 }
 
 .project-piece figure:hover {
@@ -411,7 +411,7 @@ width: 100%;
 }
 
 .project-description {
-width: 85%;
+width: 95%;
 }
 
 
