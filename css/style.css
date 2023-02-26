@@ -81,7 +81,7 @@ flex-flow: row wrap;
 .mobile-container {
   max-width: 480px;
   margin: auto;
-  background-color: rgb(44, 66, 81);
+  background-color: #db9d47;
   height: 500px;
   color: rgba(58, 92, 63, 0.897);
   border-radius: 10px;
@@ -110,8 +110,8 @@ flex-flow: row wrap;
 }
 
 .topnav a:hover {
-  background-color: rgb(44, 66, 81);
-  color: #e5f4e3;
+  background-color: #db9d47;;
+  color: rgba(58, 92, 63, 0.897);
 }
 
 
@@ -205,7 +205,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-width: 80%;
 }
 
 .hero-text span {
@@ -216,8 +215,8 @@ letter-spacing: 5px;
 }
 
 .hero-text {
-text-align: justify;
-width: 65%;
+text-align: center;
+width: 55%;
 border: 1px solid rgba(58, 92, 63, 0.897);
 padding: 1.5rem;
 background-color: rgba(58, 92, 63, 0.897);
@@ -273,7 +272,7 @@ color: #db9d47;
 
 .about-text {
 text-align: center;
-width: 60%;
+width: 80%;
 border: 1px solid rgba(58, 92, 63, 0.897);
 padding: 11px;
 background-color: rgba(58, 92, 63, 0.897);
@@ -324,7 +323,7 @@ color: #e5f4e3;
 font-size: 4em;
 background-color: #db9d47da;
 border-radius: 15%;
-padding: 1.4rem;
+padding: 1.1rem;
 }
 
 #skills i:hover {
@@ -388,17 +387,16 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-padding: 1rem;
 background-color:rgba(58, 92, 63, 0.897);
 border-radius: 11px;
 box-shadow: 0 3px 10px #db9d47; 
 margin: 10px;
-width: 80%;
+width: 40%;
 }
 
 .project-piece figure {
 filter: drop-shadow(1px 2px 2px gray);
-width: 100%;
+width: 70%;
 }
 
 .project-piece figure:hover {
@@ -411,8 +409,10 @@ width: 100%;
 }
 
 .project-description {
-width: 100%;
+width: 70%;
 }
+
+
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
