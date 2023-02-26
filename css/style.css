@@ -216,13 +216,14 @@ letter-spacing: 5px;
 
 .hero-text {
 text-align: center;
-width: 55%;
+width: 76%;
 border: 1px solid rgba(58, 92, 63, 0.897);
 padding: 1.5rem;
 background-color: rgba(58, 92, 63, 0.897);
 border-radius: 15px;
 font-weight: 500;
 color: #e5f4e3;
+letter-spacing: 2px;
 line-height: 30px;
 }
 
