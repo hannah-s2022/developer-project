@@ -323,7 +323,7 @@ color: #e5f4e3;
 font-size: 4em;
 background-color: #db9d47da;
 border-radius: 15%;
-padding: 1.1rem;
+padding: 0.875rem;
 }
 
 #skills i:hover {
@@ -360,7 +360,6 @@ font-size: 1.1rem;
 
 #projects h2 {
 color: #db9d47;
-padding: 18px;
 }
 
 #projects h3 {
@@ -368,6 +367,7 @@ font-family: 'Lexend Tera', sans-serif;
 font-size: 1.675em;  
 color: #db9d47;
 margin-bottom: -2px;
+width: 80%;
 }
 
 #projects a {
