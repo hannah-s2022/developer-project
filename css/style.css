@@ -419,4 +419,33 @@ width: 95%;
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
   /**** Hero Section ****/
+
+  /*** About section ***/
+  
+  .about-text {
+  width: 90%;
+  }
+
+  #about img {
+    width: 75%;
+  }
+  
+  /*** Skills and tools ***/
+  
+  .language-wrapper ul {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  padding: 0.675em;
+  }
+  
+  
+  #skills i {
+  color: #e5f4e3;
+  font-size: 5em;
+  background-color: #db9d47da;
+  border-radius: 15%;
+  padding: 1.5rem;
+  }
+
 }
