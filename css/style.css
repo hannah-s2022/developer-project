@@ -198,6 +198,7 @@ width: 100%;
 
 #hero .content-wrapper {
 width: 100%;
+padding: 1rem;
 }
 
 #hero .half-content {
@@ -256,6 +257,7 @@ color: #db9d47;
 
 #about .content-wrapper {
 width: 100%;
+padding: 1rem;
 }
 
 #about .half-content {
