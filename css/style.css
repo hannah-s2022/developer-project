@@ -41,7 +41,7 @@ p {
   bottom: 2.75em;
   right: 2.75%;
   z-index: 9999;
-  background-color: rgba(247, 243, 244, 0.65);
+  background-color:#db9d47da;
   color: rgba(58, 92, 63, 0.897);
   cursor: pointer;
   padding: 20px 25px 20px 25px;
@@ -52,7 +52,7 @@ p {
 
 #scroll-button:hover {
   background-color: rgba(58, 92, 63, 0.897);
-  color: rgb(214, 140, 69);
+  color: #db9d47da;
 }
 
 
@@ -65,6 +65,8 @@ background-image: url('../img/header-bkg.png');
 background-size: cover;
 background-position: center;
 width: 100%;
+background-attachment: scroll;
+background-repeat: no-repeat;
 }
 
 header .content-wrapper {
@@ -312,6 +314,7 @@ font-style: italic;
 display: flex;
 justify-content: space-around;
 flex-flow: row wrap;
+padding: 0.675em;
 }
 
 
@@ -320,7 +323,7 @@ color: #e5f4e3;
 font-size: 4em;
 background-color: #db9d47da;
 border-radius: 15%;
-padding: 0.875rem;
+padding: 1.4rem;
 }
 
 #skills i:hover {
@@ -410,7 +413,7 @@ width: 100%;
 width: 70%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
   /**** Hero Section ****/
   #hero .half-content{
@@ -452,6 +455,98 @@ width: 70%;
 
   #skills ul li {
     padding: 0.8em;
+  }
+
+  /*** Projects Section ***/
+
+.project-wrapper {
+  flex-direction: column;
+}  
+
+.project-piece {
+  width: 85%;
+  padding: 0.5em;
+}
+
+.project-piece figure img {
+    width: 100%;
+  }
+
+.project-description {
+    width: 100%;
+  }
+}
+
+/*** Footer ***/
+footer h2 {
+  font-size: 1.3rem;
+  padding: 5px;
+  text-decoration: none;
+}
+
+footer .content-wrapper {
+  width: 70%;
+  margin: 20px 0;
+}
+
+footer .creator-cred {
+  margin: 20px 0;
+  font-weight: 800;
+  font-size: 1rem;
+  width: 100%;
+}
+
+footer .creator-cred span {
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 1040px) {
+  /* Style adjustments for viewports that meet the condition */
+  /**** Hero Section ****/
+  #hero .half-content{
+    flex-direction: column;
+  }
+
+  .hero-text {
+    width: 25rem;
+    text-align: center;
+  }
+
+  .hero-text span {
+    font-size: 1.5rem;
+  }
+  /**** About Section ****/
+
+  #about .half-content{
+    flex-direction: column;
+  }
+
+  #about img {
+    width: 310px;
+  }
+
+  .about-text {
+    width: 35rem;
+  } 
+
+  /**** Skills section ****/
+  .language-wrapper ul {
+    flex-wrap: wrap;  
+  }
+
+  #skills i {
+    font-size: 4.5rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2.8rem;
+  } 
+
+  #skills ul li {
+    padding: 0.8em;
+  }
+
+  #skills p {
+    font-size: 1.5rem;
   }
 
   /*** Projects Section ***/
