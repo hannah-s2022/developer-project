@@ -412,14 +412,12 @@ width: 100%;
 
 .project-description {
 width: 95%;
+margin: 8px;
 }
-
 
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports that meet the condition */
-  /**** Hero Section ****/
-
   /*** About section ***/
   
   .about-text {
@@ -447,5 +445,83 @@ width: 95%;
   border-radius: 15%;
   padding: 1.5rem;
   }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /*** Hero section ***/
+  
+  #hero .half-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  }
+  
+  .hero-text {
+  text-align: left;
+  width: 70%;
+  padding: 1.5rem;
+  letter-spacing: 1px;
+  }
+  
+  #hero img {
+  border-radius: 50% !important;
+  object-fit: cover;
+  overflow: hidden;
+  width: 325px;
+  }
+  
+  
+  main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  }
+  
+  /*** About section ***/
+  
+  #about .half-content {
+  flex-direction: row;
+  }
+  
+  .about-text {
+  width: 75%;
+  }
+  
+  #about img {
+  width:325px;
+  }
+
+  /*** Projects ***/
+  #projects h3 {
+  width: 95%;
+  }
+  
+  #projects a {
+  color: #db9d47;
+  }
+  
+  .project-wrapper {
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  }
+  
+  .project-piece {
+  flex-direction: column;
+  width: 42%;
+  }
+  
+  .project-piece figure {
+  width: 78%;
+  }
+
+  .project-description {
+  width: 70%;
+  margin-bottom: 20px;
+  }
+  
 
 }
