@@ -217,7 +217,7 @@ letter-spacing: 5px;
 
 .hero-text {
 text-align: justify;
-width: 15rem;
+width: 65%;
 border: 1px solid rgba(58, 92, 63, 0.897);
 padding: 1.5rem;
 background-color: rgba(58, 92, 63, 0.897);
@@ -273,7 +273,7 @@ color: #db9d47;
 
 .about-text {
 text-align: center;
-width: 80%;
+width: 60%;
 border: 1px solid rgba(58, 92, 63, 0.897);
 padding: 11px;
 background-color: rgba(58, 92, 63, 0.897);
