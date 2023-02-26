@@ -353,6 +353,7 @@ color: #e5f4e3;
 font-weight: 200;
 }
 
+
 #projects p span {
 color: #db9d47;
 font-size: 1.1rem;
@@ -391,7 +392,7 @@ background-color:rgba(58, 92, 63, 0.897);
 border-radius: 11px;
 box-shadow: 0 3px 10px #db9d47; 
 margin: 10px;
-width: 40%;
+width: 80%;
 }
 
 .project-piece figure {
@@ -409,7 +410,7 @@ width: 100%;
 }
 
 .project-description {
-width: 70%;
+width: 85%;
 }
 
 
