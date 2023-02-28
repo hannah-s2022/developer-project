@@ -12,7 +12,6 @@ body {
   font-family: 'Lexend Tera', sans-serif;    
   font-size: 1.875rem;
   text-transform: uppercase;
-  text-decoration: underline;
  }
 
 ul {
@@ -176,10 +175,10 @@ font-weight: 500;
 
 footer .creator-cred {
 margin: 20px 0;
-font-size: 1.1rem;
+font-size: 1rem;
 color: #000000;
 font-weight: 700;
-width: 100;
+width: 100%;
 }
 
 .creator-cred span a {
@@ -390,7 +389,6 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-wrap: wrap;
-margin-bottom: 20px;
 }
 
 .project-piece {
@@ -401,13 +399,13 @@ flex-direction: column;
 background-color:rgba(58, 92, 63, 0.897);
 border-radius: 11px;
 box-shadow: 0 3px 10px #db9d47; 
-margin: 10px;
-width: 92%;
+padding: 15px;
+margin: 25px;
+width: 80%;
 }
 
 .project-piece figure {
-filter: drop-shadow(1px 2px 2px gray);
-width: 78%;
+width: 85%;
 }
 
 .project-piece figure:hover {
@@ -456,7 +454,7 @@ margin-bottom: 18px;
   }
 
   /*** Projects ***/
-  #projects .project-piece {
+  .project-piece {
   padding: 15px;
   width: 85%;
   }
@@ -514,27 +512,29 @@ margin-bottom: 18px;
 
   /*** Projects ***/
   #projects h3 {
-  width: 95%;
-  }
-  
+    width: 95%;
+    }
+    
   #projects a {
   color: #db9d47;
   }
-  
+    
   .project-wrapper {
   flex-wrap: wrap;
   margin-bottom: 20px;
   }
-  
+    
   .project-piece {
   flex-direction: column;
   width: 42%;
+  padding: 20px;
+
   }
-  
+    
   .project-piece figure {
   width: 78%;
   }
-
+  
   .project-description {
   width: 70%;
   margin-bottom: 20px;
