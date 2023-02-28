@@ -31,7 +31,7 @@ a:hover {
 
 p {
   font-family: 'Lekton', sans-serif;
-  font-size: 0.875em;
+  font-size: 1em;
   line-height: 1.285em;
 }
 
@@ -79,39 +79,39 @@ flex-flow: row wrap;
 
 
 .mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #db9d47;
-  height: 500px;
-  color: rgba(58, 92, 63, 0.897);
-  border-radius: 10px;
+max-width: 480px;
+margin: auto;
+background-color: #db9d47;
+height: 500px;
+color: rgba(58, 92, 63, 0.897);
+border-radius: 10px;
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: rgba(58, 92, 63, 0.897);
-  position: relative;
+overflow: hidden;
+background-color: rgba(58, 92, 63, 0.897);
+position: relative;
 }
 
 .topnav #myLinks {
-  display: none;
+display: none;
 }
 
 .topnav a {
-  float: left;
-  color: #db9d47;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+float: left;
+color: #db9d47;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
 }
 
 .topnav a.icon {
-  float: right;
+float: right;
 }
 
 .topnav a:hover {
-  background-color: #db9d47;;
-  color: rgba(58, 92, 63, 0.897);
+background-color: #db9d47;
+color: rgba(58, 92, 63, 0.897);
 }
 
 
@@ -131,18 +131,18 @@ font-size: 1.5rem;
 padding: 5px;
 text-transform: uppercase;
 text-decoration: none;
-color: #2c4251;
+color: #02111b;
 font-weight: 800;
 width: 100%;
 }
 
 footer a {
-  color: #2c4251;
-  text-decoration: none;
+color: #02111b;
+text-decoration: none;
 }
 
 footer a:hover {
-  color: #e5f4e3;
+color: #ffffff;
 }
 
 footer .content-wrapper {
@@ -186,14 +186,17 @@ width: 100;
 text-transform: uppercase;
 letter-spacing: 3px;
 font-weight: 800;
-color: #000000;
-font-size: 0.875rem;
+color: #ffffff;
+font-size: 1rem;
 }
 
 /*** Hero section ***/
 
 #hero {
 width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #hero .content-wrapper {
@@ -247,11 +250,15 @@ flex-flow: row wrap;
 #about {
 width: 100%;
 background-color: #e5f4e3;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
 }
 
 #about h2 {
 padding: 19px;
-color: #db9d47;
+color: #3a5c3ff9;
 }
 
 #about .content-wrapper {
@@ -266,8 +273,7 @@ flex-direction: column;
 }
 
 .about-text span {
-font-size: 1.5em;
-font-weight: 800;
+font-weight: 700;
 color: #db9d47;
 }
 
@@ -297,6 +303,10 @@ width: 255px;
 #skills {
 background-color: rgba(58, 92, 63, 0.897);
 width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
 }
 
 #skills h2 {
@@ -321,7 +331,7 @@ padding: 0.675em;
 
 #skills i {
 color: #e5f4e3;
-font-size: 4em;
+font-size: 3.5rem;
 background-color: #db9d47da;
 border-radius: 15%;
 padding: 1rem;
@@ -332,11 +342,10 @@ color: #2c4251;
 }
 
 #skills p {
-font-size: 1.2rem;
+font-size: 1rem;
 color: #e5f4e3;
 font-weight: 400;
 }
-
 
 
 /*** Projects ***/
@@ -346,7 +355,7 @@ width: 100%;
 }
 
 #projects a:hover {
-  color: #e5f4e3;
+color: #e5f4e3;
 }
 
 #projects p {
@@ -361,7 +370,7 @@ font-size: 1.1rem;
 }
 
 #projects h2 {
-color: #db9d47;
+color: #3a5c3ff9;
 }
 
 #projects h3 {
@@ -425,7 +434,7 @@ margin-bottom: 18px;
   }
 
   #about img {
-    width: 75%;
+  width: 75%;
   }
   
   /*** Skills and tools ***/
@@ -440,10 +449,16 @@ margin-bottom: 18px;
   
   #skills i {
   color: #e5f4e3;
-  font-size: 5em;
+  font-size: 3.5em;
   background-color: #db9d47da;
   border-radius: 15%;
   padding: 1.5rem;
+  }
+
+  /*** Projects ***/
+  #projects .project-piece {
+  padding: 15px;
+  width: 85%;
   }
 
 }
@@ -452,10 +467,11 @@ margin-bottom: 18px;
 
   /*** Hero section ***/
   
+  #hero .content-wrapper {
+    width: 80%;
+  }
+
   #hero .half-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
   }
   
@@ -463,36 +479,37 @@ margin-bottom: 18px;
   text-align: left;
   width: 70%;
   padding: 1.5rem;
-  letter-spacing: 1px;
   }
   
   #hero img {
-  border-radius: 50% !important;
-  object-fit: cover;
-  overflow: hidden;
-  width: 325px;
+  width: 280px;
   }
   
-  
-  main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  }
   
   /*** About section ***/
-  
+  #about .content-wrapper {
+  width: 80%;
+  }
+
   #about .half-content {
   flex-direction: row;
   }
   
   .about-text {
-  width: 75%;
+  width: 100%;
   }
   
   #about img {
   width:325px;
+  }
+
+  /*** Skills ***/
+  #skills .content-wrapper {
+  width: 80%;
+  }
+
+  #skills i {
+    font-size: 4rem;
   }
 
   /*** Projects ***/
