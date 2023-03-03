@@ -40,18 +40,18 @@ p {
   bottom: 2.75em;
   right: 2.75%;
   z-index: 9999;
-  background-color: #db9d47da;
-  color: rgba(58, 92, 63, 0.897);
+  background-color: #e6985b;
+  color: #54495ed7;
   cursor: pointer;
-  padding: 20px 25px 20px 25px;
+  padding: 10px 15px 10px 15px;
   border-radius: 50%;
-  font-size: 1em;
+  font-size: 2em;
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
 #scroll-button:hover {
-  background-color: rgba(58, 92, 63, 0.897);
-  color: #db9d47da;
+  background-color: #54495ed7;
+  color: #e6985b;
 }
 
 
@@ -80,15 +80,15 @@ header .content-wrapper {
 .mobile-container {
   max-width: 480px;
   margin: auto;
-  background-color: #db9d47;
+  background-color: #e6985b;
   height: 500px;
-  color: rgba(58, 92, 63, 0.897);
+  color: #54495ed7;
   border-radius: 10px;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: rgba(58, 92, 63, 0.897);
+  background-color: #54495ed7;
   position: relative;
 }
 
@@ -98,7 +98,7 @@ header .content-wrapper {
 
 .topnav a {
   float: left;
-  color: #db9d47;
+  color: #e6985b;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -109,8 +109,8 @@ header .content-wrapper {
 }
 
 .topnav a:hover {
-  background-color: #db9d47;
-  color: rgba(58, 92, 63, 0.897);
+  background-color: #e6985b;
+  color: #54495ed7;
 }
 
 
@@ -212,16 +212,16 @@ footer .creator-cred {
 .hero-text span {
   font-size: 1.5rem;
   font-weight: 800;
-  color: #db9d47;
+  color: #e6985b;
   letter-spacing: 5px;
 }
 
 .hero-text {
   text-align: center;
   width: 76%;
-  border: 1px solid rgba(58, 92, 63, 0.897);
+  border: 1px solid #54495ed7;
   padding: 1.5rem;
-  background-color: rgba(58, 92, 63, 0.897);
+  background-color: #54495ed7;
   border-radius: 15px;
   font-weight: 500;
   color: #e5f4e3;
@@ -230,7 +230,6 @@ footer .creator-cred {
 }
 
 #hero img {
-  border-radius: 50% !important;
   object-fit: cover;
   overflow: hidden;
   width: 230px;
@@ -257,7 +256,7 @@ main {
 
 #about h2 {
   padding: 19px;
-  color: #3a5c3ff9;
+  color: #54495ed7;
 }
 
 #about .content-wrapper {
@@ -273,15 +272,15 @@ main {
 
 .about-text span {
   font-weight: 700;
-  color: #db9d47;
+  color: #e6985b;
 }
 
 .about-text {
   text-align: center;
   width: 90%;
-  border: 1px solid rgba(58, 92, 63, 0.897);
+  border: 1px solid #54495ed7;
   padding: 11px;
-  background-color: rgba(58, 92, 63, 0.897);
+  background-color: #54495ed7;
   border-radius: 5px;
   color: #e5f4e3;
   line-height: 20px;
@@ -300,7 +299,7 @@ main {
 /*** Skills and tools ***/
 
 #skills {
-  background-color: rgba(58, 92, 63, 0.897);
+  background-color: #54495ed7;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -331,7 +330,7 @@ main {
 #skills i {
   color: #e5f4e3;
   font-size: 3.5rem;
-  background-color: #db9d47da;
+  background-color: #e6985b;
   border-radius: 15%;
   padding: 1rem;
 }
@@ -364,24 +363,24 @@ main {
 
 
 #projects p span {
-  color: #db9d47;
+  color: #e6985b;
   font-size: 1.1rem;
 }
 
 #projects h2 {
-  color: #3a5c3ff9;
+  color: #54495ed7;
 }
 
 #projects h3 {
   font-family: 'Lexend Tera', sans-serif;
   font-size: 1.675em;
-  color: #db9d47;
+  color: #e6985b;
   margin-bottom: -2px;
   width: 95%;
 }
 
 #projects a {
-  color: #db9d47;
+  color: #e6985b;
 }
 
 .project-wrapper {
@@ -396,9 +395,9 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(58, 92, 63, 0.897);
+  background-color: #54495ed7;
   border-radius: 11px;
-  box-shadow: 0 3px 10px #db9d47;
+  box-shadow: 0 3px 10px #e6985b;
   padding: 15px;
   margin: 25px;
   width: 80%;
@@ -448,7 +447,7 @@ main {
   #skills i {
     color: #e5f4e3;
     font-size: 3.5em;
-    background-color: #db9d47da;
+    background-color: #e6985b;
     border-radius: 15%;
     padding: 1.5rem;
   }
@@ -516,7 +515,7 @@ main {
   }
 
   #projects a {
-    color: #db9d47;
+    color: #e6985b;
   }
 
   .project-wrapper {
