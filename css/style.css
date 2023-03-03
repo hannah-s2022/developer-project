@@ -40,7 +40,7 @@ p {
   bottom: 2.75em;
   right: 2.75%;
   z-index: 9999;
-  background-color: #e6985b;
+  background-color: #dd9f70;
   color: #54495ed7;
   cursor: pointer;
   padding: 10px 15px 10px 15px;
@@ -51,7 +51,7 @@ p {
 
 #scroll-button:hover {
   background-color: #54495ed7;
-  color: #e6985b;
+  color: #dd9f70;
 }
 
 
@@ -98,7 +98,7 @@ header .content-wrapper {
 
 .topnav a {
   float: left;
-  color: #e6985b;
+  color: #dd9f70;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -109,7 +109,7 @@ header .content-wrapper {
 }
 
 .topnav a:hover {
-  background-color: #e6985b;
+  background-color: #dd9f70;
   color: #54495ed7;
 }
 
@@ -212,7 +212,7 @@ footer .creator-cred {
 .hero-text span {
   font-size: 1.5rem;
   font-weight: 800;
-  color: #e6985b;
+  color: #dd9f70;
   letter-spacing: 5px;
 }
 
@@ -224,7 +224,7 @@ footer .creator-cred {
   background-color: #54495ed7;
   border-radius: 15px;
   font-weight: 500;
-  color: #e5f4e3;
+  color: #eee3f4e5;
   letter-spacing: 2px;
   line-height: 30px;
 }
@@ -247,7 +247,7 @@ main {
 
 #about {
   width: 100%;
-  background-color: #e5f4e3;
+  background-color: #eee3f4e5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,7 +272,7 @@ main {
 
 .about-text span {
   font-weight: 700;
-  color: #e6985b;
+  color: #dd9f70;
 }
 
 .about-text {
@@ -282,7 +282,7 @@ main {
   padding: 11px;
   background-color: #54495ed7;
   border-radius: 5px;
-  color: #e5f4e3;
+  color: #eee3f4e5;
   line-height: 20px;
   font-weight: 500;
 }
@@ -309,13 +309,13 @@ main {
 
 #skills h2 {
   padding: 25px;
-  color: #e5f4e3;
+  color: #eee3f4e5;
 }
 
 #skills h3 {
   font-family: 'Lexend Tera', sans-serif;
   font-size: 1.675rem;
-  color: #e5f4e3;
+  color: #eee3f4e5;
   font-style: italic;
 }
 
@@ -328,9 +328,9 @@ main {
 
 
 #skills i {
-  color: #e5f4e3;
+  color: #eee3f4e5;
   font-size: 3.5rem;
-  background-color: #e6985b;
+  background-color: #dd9f70;
   border-radius: 15%;
   padding: 1rem;
 }
@@ -341,29 +341,29 @@ main {
 
 #skills p {
   font-size: 1rem;
-  color: #e5f4e3;
+  color: #eee3f4e5;
   font-weight: 400;
 }
 
 
 /*** Projects ***/
 #projects {
-  background-color: #e5f4e3;
+  background-color: #eee3f4e5;
   width: 100%;
 }
 
 #projects a:hover {
-  color: #e5f4e3;
+  color: #eee3f4e5;
 }
 
 #projects p {
-  color: #e5f4e3;
+  color: #eee3f4e5;
   font-weight: 200;
 }
 
 
 #projects p span {
-  color: #e6985b;
+  color: #dd9f70;
   font-size: 1.1rem;
 }
 
@@ -374,13 +374,13 @@ main {
 #projects h3 {
   font-family: 'Lexend Tera', sans-serif;
   font-size: 1.675em;
-  color: #e6985b;
+  color: #dd9f70;
   margin-bottom: -2px;
   width: 95%;
 }
 
 #projects a {
-  color: #e6985b;
+  color: #dd9f70;
 }
 
 .project-wrapper {
@@ -397,7 +397,7 @@ main {
   flex-direction: column;
   background-color: #54495ed7;
   border-radius: 11px;
-  box-shadow: 0 3px 10px #e6985b;
+  box-shadow: 0 3px 10px #dd9f70;
   padding: 15px;
   margin: 25px;
   width: 80%;
@@ -445,9 +445,9 @@ main {
 
 
   #skills i {
-    color: #e5f4e3;
+    color: #eee3f4e5;
     font-size: 3.5em;
-    background-color: #e6985b;
+    background-color: #dd9f70;
     border-radius: 15%;
     padding: 1.5rem;
   }
@@ -515,7 +515,7 @@ main {
   }
 
   #projects a {
-    color: #e6985b;
+    color: #dd9f70;
   }
 
   .project-wrapper {
